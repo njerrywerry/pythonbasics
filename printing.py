@@ -32,3 +32,20 @@ print formatter %(
                 "But it didn't sing.",
                 "So I said goodnight."
                 )
+
+#EVEN MORE printing
+
+#printing in one line
+days = "Mon Tue Wed Thur Fri Sat Sun"
+#printing things on a new line
+months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+print "Days of the week:", days
+print "Months of the year:", months
+
+#three double quotes allow as much typing as possible
+print """
+There's a mystery here.
+What's going on?
+This is magic.
+Dare i call this sorcery???
+"""
