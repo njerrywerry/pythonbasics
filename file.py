@@ -16,3 +16,7 @@ file_again = raw_input(">")
 txt_again = open(file_again)
 #reading from the file
 print txt_again.read()
+
+#closing the file
+txt.close()
+txt_again.close()
