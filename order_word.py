@@ -3,10 +3,11 @@
 # "Invalid String!"
 
 def order_word(s):
-    if s == '':
-        print "Invalid String!"
-    else:
+    if s:
         print ''.join(sorted(s))
+    else:
+        print "Invalid String!"
+
 
 
 order_word("Hello, World!")
